@@ -4,10 +4,6 @@ Start by running "npm i" this will install the needed libs as wells as the PW br
 
 Just need to run "npm t". This will trigger all scenarios in all .feature files.
 
-One of the tests is expected to fail since it is the performance_issue user login (The excpectation is that the login is sucessful under 5 seconds, which this user fails to do).
-
-In the Order.feature file, we have a single scenario that covers the whole flow. For time saving purposes, that scenario covers all behaviors expected in the main flow. For a more BDD approach, each of the When-Then pairs that are currently separated by new lines should be individual test scenarios.
-
 
 # Project structure
 
